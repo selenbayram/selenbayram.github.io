@@ -2,7 +2,7 @@ const Experience = () => {
   const experiences = [
     {
       company: "NEXT36",
-      logo: "./dist/assets/next36.png",
+      logo: "src/assets/next36.png",
       date: "Dec 2024 - Present",
       title: "Entrepreneur, 2025 Cohort",
       description: [
@@ -11,7 +11,7 @@ const Experience = () => {
     },
     {
       company: "Cove Neurosciences Inc.",
-      logo: "./dist/assets/cove.png",
+      logo: "src/assets/cove.png",
       date: "Sep 2024 - Present",
       title: "Software Developer",
       description: [
@@ -21,7 +21,7 @@ const Experience = () => {
     },
     {
       company: "Noredio",
-      logo: "./dist/assets/noredio_logo.png",
+      logo: "src/assets/noredio_logo.png",
       date: "Aug 2024 - Present",
       title: "Web Developer",
       description: [
@@ -32,7 +32,7 @@ const Experience = () => {
     },
     {
       company: "Accenture",
-      logo: "./dist/assets/accenture.png",
+      logo: "src/assets/accenture.png",
       date: "Jun - Aug 2024",
       title: "Technology Analyst Intern",
       skills: "design thinking, facilitation, storytelling, Microsoft PowerPoint and Excel, MURAL",
@@ -43,7 +43,7 @@ const Experience = () => {
     },
     {
       company: "Rotman Research Institute, BAYCREST",
-      logo: "./dist/assets/baycrest_website.png",
+      logo: "src/assets/baycrest_website.png",
       date: "Sep 2023 - Apr 2024",
       title: "Research Opportunities Program Student",
       supervisor: "Dr. Allison Sekuler",
@@ -55,7 +55,7 @@ const Experience = () => {
     },
     {
       company: "Krembil Centre for Neuroinformatics, CAMH",
-      logo: "./dist/assets/camh_logo.png",
+      logo: "src/assets/camh_logo.png",
       date: "Jan - Sep 2023",
       positions: [
         {
@@ -80,7 +80,7 @@ const Experience = () => {
     },
     {
       company: "Microbiology and Medical Chemistry Lab, OZEL SAGLIK HOSPITAL",
-      logo: "./dist/assets/ozel_saglik_hastanesi_logo.png",
+      logo: "src/assets/ozel_saglik_hastanesi_logo.png",
       date: "Jul - Aug 2022",
       title: "Microbiology Intern",
       supervisor: "Dr. Hilmi Tezgel",

@@ -3,7 +3,7 @@ const Introduction = () => {
     <div className="flex flex-col md:flex-row items-center gap-8">
       <div className="w-64 h-64 rounded-2xl overflow-hidden">
         <img
-          src="./dist/assets/profile_pic_website.jpeg"
+          src="src/assets/profile_pic_website.jpeg"
           alt="Selen Bayram"
           className="w-full h-full object-cover"
         />

@@ -3,19 +3,19 @@ const Projects = () => {
     {
       title: "Society Management System",
       tech: "Python",
-      image: "./dist/assets/martian_robot_society.png",
+      image: "src/assets/martian_robot_society.png",
       description: "A program that makes use of recursive operations and models a society hierarchy using tree data structure."
     },
     {
       title: "Raccoon Raiders!",
       tech: "Python",
-      image: "./dist/assets/raccoon_raiders.gif",
+      image: "src/assets/raccoon_raiders.gif",
       description: "A game that makes use of object-oriented programming practices such as inheritance and composition."
     },
     {
       title: "TETRIS",
       tech: "MIPS Assembly",
-      image: "./dist/assets/tetris.gif",
+      image: "src/assets/tetris.gif",
       description: "Traditional game of Tetris. Game functionality includes: gravity, increased gravity speed based on score, Game Over screen, Retry to start a new game, and sound effects for key press (a,s,d,w) and Game Over."
     }
   ];

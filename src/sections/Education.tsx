@@ -5,7 +5,7 @@ const Education = () => {
       <div className="card">
         <div className="flex items-center gap-6 mb-4">
             <img
-              src="./dist/assets/uoft_logo.png"
+              src="src/assets/uoft_logo.png"
               alt="University of Toronto"
               className="object-cover w-32"
             />
