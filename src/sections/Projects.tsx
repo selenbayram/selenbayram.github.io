@@ -1,21 +1,25 @@
+import martianRobotSociety from '../assets/martian_robot_society.png';
+import raccoonRaiders from '../assets/raccoon_raiders.gif';
+import tetris from '../assets/tetris.gif';
+
 const Projects = () => {
   const projects = [
     {
       title: "Society Management System",
       tech: "Python",
-      image: "src/assets/martian_robot_society.png",
+      image: martianRobotSociety,
       description: "A program that makes use of recursive operations and models a society hierarchy using tree data structure."
     },
     {
       title: "Raccoon Raiders!",
       tech: "Python",
-      image: "src/assets/raccoon_raiders.gif",
+      image: raccoonRaiders,
       description: "A game that makes use of object-oriented programming practices such as inheritance and composition."
     },
     {
       title: "TETRIS",
       tech: "MIPS Assembly",
-      image: "src/assets/tetris.gif",
+      image: tetris,
       description: "Traditional game of Tetris. Game functionality includes: gravity, increased gravity speed based on score, Game Over screen, Retry to start a new game, and sound effects for key press (a,s,d,w) and Game Over."
     }
   ];
