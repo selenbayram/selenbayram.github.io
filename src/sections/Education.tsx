@@ -1,3 +1,5 @@
+import uoftLogo from '../assets/uoft_logo.png';
+
 const Education = () => {
   return (
     <div>
@@ -5,7 +7,7 @@ const Education = () => {
       <div className="card">
         <div className="flex items-center gap-6 mb-4">
             <img
-              src="src/assets/uoft_logo.png"
+              src={uoftLogo}
               alt="University of Toronto"
               className="object-cover w-32"
             />

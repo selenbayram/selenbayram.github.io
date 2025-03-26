@@ -1,8 +1,16 @@
+import next36Logo from '../assets/next36.png';
+import coveLogo from '../assets/cove.png';
+import noredioLogo from '../assets/noredio_logo.png';
+import accentureLogo from '../assets/accenture.png';
+import baycrestLogo from '../assets/baycrest_website.png';
+import camhLogo from '../assets/camh_logo.png';
+import ozelSaglikLogo from '../assets/ozel_saglik_hastanesi_logo.png';
+
 const Experience = () => {
   const experiences = [
     {
       company: "NEXT36",
-      logo: "src/assets/next36.png",
+      logo: next36Logo,
       date: "Dec 2024 - Present",
       title: "Entrepreneur, 2025 Cohort",
       description: [
@@ -11,7 +19,7 @@ const Experience = () => {
     },
     {
       company: "Cove Neurosciences Inc.",
-      logo: "src/assets/cove.png",
+      logo: coveLogo,
       date: "Sep 2024 - Present",
       title: "Software Developer",
       description: [
@@ -21,7 +29,7 @@ const Experience = () => {
     },
     {
       company: "Noredio",
-      logo: "src/assets/noredio_logo.png",
+      logo: noredioLogo,
       date: "Aug 2024 - Present",
       title: "Web Developer",
       description: [
@@ -32,7 +40,7 @@ const Experience = () => {
     },
     {
       company: "Accenture",
-      logo: "src/assets/accenture.png",
+      logo: accentureLogo,
       date: "Jun - Aug 2024",
       title: "Technology Analyst Intern",
       skills: "design thinking, facilitation, storytelling, Microsoft PowerPoint and Excel, MURAL",
@@ -43,7 +51,7 @@ const Experience = () => {
     },
     {
       company: "Rotman Research Institute, BAYCREST",
-      logo: "src/assets/baycrest_website.png",
+      logo: baycrestLogo,
       date: "Sep 2023 - Apr 2024",
       title: "Research Opportunities Program Student",
       supervisor: "Dr. Allison Sekuler",
@@ -55,7 +63,7 @@ const Experience = () => {
     },
     {
       company: "Krembil Centre for Neuroinformatics, CAMH",
-      logo: "src/assets/camh_logo.png",
+      logo: camhLogo,
       date: "Jan - Sep 2023",
       positions: [
         {
@@ -80,7 +88,7 @@ const Experience = () => {
     },
     {
       company: "Microbiology and Medical Chemistry Lab, OZEL SAGLIK HOSPITAL",
-      logo: "src/assets/ozel_saglik_hastanesi_logo.png",
+      logo: ozelSaglikLogo,
       date: "Jul - Aug 2022",
       title: "Microbiology Intern",
       supervisor: "Dr. Hilmi Tezgel",
