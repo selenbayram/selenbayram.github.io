@@ -30,7 +30,7 @@ const Experience = () => {
     {
       company: "Noredio",
       logo: noredioLogo,
-      date: "Aug 2024 - Present",
+      date: "Aug 2024 - Dec 2024",
       title: "Web Developer",
       description: [
         "Implemented the website for an AI music generation & streaming platform that enables copyright acquisition.",
@@ -57,8 +57,8 @@ const Experience = () => {
       supervisor: "Dr. Allison Sekuler",
       skills: "MATLAB, GitLab, RedCAP, Pavlovia, Excel, Biosemi EEG",
       description: [
-        "Work on characterizing blink-related oscillations in healthy older adults vs. in older adults with mild cognitive impairment utilizing neuropsych tests and analyzing EEG data using MATLAB.",
-        "Investigate the impact of horizontal bias training on face identification using PsychoPy tests."
+        "Worked on characterizing blink-related oscillations in healthy older adults vs. in older adults with mild cognitive impairment utilizing neuropsych tests and analyzing EEG data using MATLAB.",
+        "Investigated the impact of horizontal bias training on face identification using PsychoPy tests."
       ]
     },
     {
@@ -134,7 +134,7 @@ const Experience = () => {
               </ul>
             )}
             
-            {/* For positions with multiple roles (like CAMH) */}
+            {/* For positions with multiple roles */}
             {exp.positions && (
               <div className="space-y-6">
                 {exp.positions.map((position, i) => (

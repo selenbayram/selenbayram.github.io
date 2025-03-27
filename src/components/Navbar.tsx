@@ -11,7 +11,7 @@ const sections = [
   { id: 'awards', label: 'Awards' },
   { id: 'projects', label: 'Projects' },
   { id: 'experience', label: 'Experience' },
-  { id: 'extracurricular', label: 'Extracurricular' },
+  { id: 'extracurricular', label: 'Extracurriculars' },
 ];
 
 const Navbar: FC<NavbarProps> = ({ activeSection, onSectionClick }) => {

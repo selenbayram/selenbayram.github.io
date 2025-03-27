@@ -37,9 +37,15 @@ function App() {
   }, []);
 
   const scrollToSection = (sectionId: string) => {
-    sectionRefs[sectionId as keyof typeof sectionRefs].current?.scrollIntoView({
-      behavior: 'smooth'
-    });
+    const section = sectionRefs[sectionId as keyof typeof sectionRefs].current;
+    if (section) {
+      const navbarHeight = 180; // 120px for the navbar and 60px for the padding
+      const sectionPosition = section.offsetTop - navbarHeight;
+      window.scrollTo({
+        top: sectionPosition,
+        behavior: 'smooth'
+      });
+    }
   };
 
   return (

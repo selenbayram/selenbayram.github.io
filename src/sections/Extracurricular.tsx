@@ -12,7 +12,12 @@ const Extracurricular = () => {
       logo: neurotechLogo,
       role: "Co-President, Community | NeurOn Air Podcast Founder and Co-Host",
       achievements: [
-        "I am leading a student design team of 70 members spanning the Faculties of Applied Science & Engineering and Arts & Science. In 2023, I founded the Neuroscience Subsystem to improve R&D and provide more space for Arts & Science students to get involved in developing neurotechnology solutions. My team conducted extensive research on Machine Learning and Deep Learning based Brain-Computer Interface models to streamline decision making processes of Hardware and Software Subsystems. Based on my initiatives and commitment to the club operations, I was elected as the Co-President | Community for the 2024-2025 term. Currently, as one of three members of the Executive Committee, I oversee the operations of all subsystems and suggest constitutional amendments to increase efficiency and equitable access to resources within the team. I am also spearheading a podcast initiative, NeurON Air, that brings the fascinating world of neurotechnology to the UofT community and beyond by featuring in-depth conversations with leading researchers, industry professionals, and clinician scientists with the mission of bridging the gap between science and engineering. By initiating a partnership with CRANIA Neuromodulation Institute, I created an opportunity for my members to do all-expenses-covered neurosurgery observerships at UHN, worth around $1,000. I started collaborations with CUBE, UofT’s undergraduate biomedical engineering club, and iGEM, UofT’s synthetic biology student design team. This tri-club partnership allowed us to organize a series of events including a prosthetic arm circuit design workshop, a panel talk on careers in neurotechnology, and, most prominently, Canada’s largest biomedical engineering hackathon, reaching out to 300+ people. Under our leadership, Neurotech UofT received $20,000 in funds, a 4-fold increase in budget compared to last year, to build an EEG and exoskeleton-based solution to alleviate symptoms like tremors in Parkinson’s patients. "
+        "Leading a student design team of 70+ members spanning the Faculties of Applied Science & Engineering and Arts & Science.",
+        "Founded the Neuroscience Subsystem to boost R&D and bridge science/engineering gaps.",
+        "Launched the NeurOn Air Podcast where we chat with leaders driving neurotec innovation.",
+        "Partnered with CRANIA, securing $1k neurosurgery observerships for members.",
+        "Teamed up with CUBE & iGEM to host Canada’s largest biomed hackathon series, reaching 300+ attendees.",
+        "Secured $20k in funds to build an EEG and exoskeleton-based wearable device for Parkinson’s patients.",
       ]
     },
     {
@@ -20,7 +25,12 @@ const Extracurricular = () => {
       logo: uclitLogo,
       role: "University and Academic Affairs Commissioner",
       achievements: [
-        "University College Literary and Athletic Society is the student government for University College. We strive to enhance student life by fostering community, advocating for student interests, and promoting accessibility, equity, and transparency. I was elected two years in a row to represent the college student body of 5000+ as part of Canada’s oldest democratically elected student government. Through advocating student engagement in academics using social media, I increased engagement by 300% compared to previous years. I organize events promoting community building and interaction, having reached out to 400+ students so far, achieving highest overall in-person participation for my commission since 2020. Recently, I initiated a collaboration with the Academic Advising and Registrar’s Office to help address frequently asked questions by students as well as to provide first-hand information on academics and program-related matters through interview-style videos. Through this project, I aim to inform the student body on major topics – including course and program enrollment, graduate school applications, petitions, awards and financial aid, and mental health resources. I am also organizing an upper year student panel to assist first and second year students in finding internships and research positions, with panelists representing top companies like Amazon, Deloitte, P&G, SunLife, and Twitch. As an appointed student representative, I advise the University College Curriculum Committee on program and course modifications for Cognitive Science, Health Studies, and Canadian Studies programs, with a focus on providing equitable and fair access to courses for students from various backgrounds."
+        "Serving 5,000+ students at Canada’s oldest student government as a 2x elected Commissioner.",
+        "Boosted student engagement by 300% through creative social media campaigns.",
+        "Organized events to advocate, engage, and build community reaching 400+ students — highest turnout since 2020.",
+        "Partnered with Academic Advising & Registrar's Office to create video guides on essential topics concerning academics.",
+        "Hosted an upper-year student panel with reps from Amazon, Deloitte, P&G & more to guide first-years in career planning.",
+        "Advise the University College Curriculum Committee on program/course modifications for Cognitive Science, Health Studies, and Canadian Studies."
       ]
     },
     {
@@ -28,16 +38,17 @@ const Extracurricular = () => {
       logo: harthouseSingersLogo,
       role: "Executive | First Soprano",
       achievements: [
-        "Hart House Singers is a UofT choir that welcomes first-time and experienced singers to share the enthusiasm for choral singing. Each semester, we sing culturally and historically diverse repertoires and collaborate with musical groups, such as the Hart House Orchestra and Canada’s National Ballet School, for performances. As an Executive, I manage registration, email communications, and planning for a choir with ~150 members from across UofT divisions, faculties, and colleges. I am responsible for music score copying and distribution as a librarian. In addition, I manage social media channels for the Singers and create content that reaches 700+ people on average, with a 5-fold increase in community engagement compared to previous years."
-       ]
+        "Manage registration, email communications, and planning for a choir with ~150 members from across UofT divisions, faculties, and colleges.",
+        "Create content for social media channels, reaching 700+ people on average – 5x increase in community engagement compared to previous years."
+      ]
     },
     {
       organization: "University College Residence Council",
       logo: ucrcLogo,
       role: "House President",
       achievements: [
-        "Created in 1992, University College Residence Council is the student government representing students living on-campus residences. It encompasses individual house councils that organize various events, from charity toy drives and environmental awareness campaigns to fun socials and community building activities. I was elected as the President to represent the views of 65 students who lived in my residence house for 2 consecutive years. I dedicated 150+ hours throughout 4 semesters for meetings and event planning. I was responsible for attending monthly Residence Council meetings where I reported any suggestions or complaints from the residents to seek resolution. I also chaired House Council meetings and led my house’s executive committee consisting of our Vice President, Secretary, and Treasurer. In addition, I led monthly House Meetings in coordination with Residence Dons. Through my term, I put special effort into fostering an inclusive and tight-knit community in my residence where everyone could share ideas and felt respected."
-       ]
+        "Represented 65+ on-campus residents as 2x President-elect, dedicating 150+ hours to leadership and event planning.",
+      ]
     },
     {
       organization: "University College",
@@ -55,8 +66,9 @@ const Extracurricular = () => {
       logo: caffiendsLogo,
       role: "Barista",
       achievements: [
-        "Caffiends is a student-run fair trade café at Victoria College. We offer a welcoming space for studying and socializing while promoting Fair-Trade awareness and social justice education. As a Barista, I serve students, instructors, and executives from around campus hand-crafted coffee and tea-based drinks with focus on customer satisfaction. As an experienced volunteer, I help new volunteers get onboarded by assisting in coffee making procedures. I also promote our seasonal fundraiser drinks, proceeds from which are donated to organizations including Toronto Indigenous Harm Reduction, Canadian Centre for Refugee and Immigrant Healthcare, and METRAC."
-        ]
+        "Served fair-trade coffee/tea with a focus on customer experience",
+        "Promoted seasonal fundraiser drinks, proceeds from which are donated to non-profits."
+    ]
     },
   ];
 
@@ -77,11 +89,11 @@ const Extracurricular = () => {
                 <p className="text-purple-400">{activity.role}</p>
               </div>
             </div>
-            <p className="list-disc list-inside space-y-2">
+            <ul className="list-disc list-inside space-y-2">
               {activity.achievements.map((achievement, i) => (
-                <p key={i} className="text-white/50">{achievement}</p>
+                <li key={i} className="text-white/65">{achievement}</li>
               ))}
-            </p>
+            </ul>
           </div>
         ))}
       </div>
