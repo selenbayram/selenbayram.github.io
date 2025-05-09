@@ -17,7 +17,8 @@ const Awards = () => {
     "2025 - Dr. James A. and Connie P. Dickson Scholarship in Science and Mathematics",
     "2025 - University of Toronto Student Leadership Award",
     "2025 - Susan J. Serena Scholarship",
-    "2025 - Ali Saeed Memorial Award"
+    "2025 - Ali Saeed Memorial Award",
+    "2025 - Dora Burke Playfair Leadership Award"
   ];
 
   return (
