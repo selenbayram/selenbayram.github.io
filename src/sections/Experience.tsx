@@ -11,7 +11,7 @@ const Experience = () => {
     {
       company: "NEXT36",
       logo: next36Logo,
-      date: "Dec 2024 - Present",
+      date: "Dec 2024 - May 2025",
       title: "Entrepreneur, 2025 Cohort",
       description: [
         "Selected as one of Canada's top 36 most promising students & recent grads from a national pool of 1,000 applicants to create a high-impact venture with mentorship from leading entrepreneurs, international business experts, and renown faculty from Harvard Business School, MIT Sloan School of Management, and Rotman School of Management."
@@ -20,7 +20,7 @@ const Experience = () => {
     {
       company: "Cove Neurosciences Inc.",
       logo: coveLogo,
-      date: "Sep 2024 - Present",
+      date: "Sep 2024 - Apr 2025",
       title: "Software Developer",
       description: [
         "Develop and implement algorithms for disease-specific biomarker identification pipeline from EEG and MRI data.",
