@@ -12,7 +12,7 @@ const Extracurricular = () => {
       logo: neurotechLogo,
       role: "Co-President, Community | NeurOn Air Podcast Founder and Co-Host",
       achievements: [
-        "Leading a student design team of 70+ members spanning the Faculties of Applied Science & Engineering and Arts & Science.",
+        "Led a student design team of 150+ members spanning the Faculties of Applied Science & Engineering and Arts & Science.",
         "Founded the Neuroscience Subsystem to boost R&D and bridge science/engineering gaps.",
         "Launched the NeurOn Air Podcast where we chat with leaders driving neurotec innovation.",
         "Partnered with CRANIA, securing $1k neurosurgery observerships for members.",

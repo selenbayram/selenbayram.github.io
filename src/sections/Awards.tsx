@@ -18,7 +18,8 @@ const Awards = () => {
     "2025 - University of Toronto Student Leadership Award",
     "2025 - Susan J. Serena Scholarship",
     "2025 - Ali Saeed Memorial Award",
-    "2025 - Dora Burke Playfair Leadership Award"
+    "2025 - Dora Burke Playfair Leadership Award",
+    "2025 - Dean's Honour List"
   ];
 
   return (

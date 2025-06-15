@@ -5,6 +5,7 @@ import accentureLogo from '../assets/accenture.png';
 import baycrestLogo from '../assets/baycrest_website.png';
 import camhLogo from '../assets/camh_logo.png';
 import ozelSaglikLogo from '../assets/ozel_saglik_hastanesi_logo.png';
+import csLogo from '../assets/uoft_cs_logo.png';
 
 const Experience = () => {
   const experiences = [
@@ -18,13 +19,24 @@ const Experience = () => {
       ]
     },
     {
+      company: "Department of Computer Science, University of Toronto",
+      logo: csLogo,
+      date: "Jan 2025 - Apr 2025",
+      title: "Undergraduate Researcher",
+      supervisor: "Dr. Steve Engels",
+      description: [
+        "Worked on investigating the potential use of AI in the mining industry and developing software for mining permit applications."
+      ]
+    },
+    {
       company: "Cove Neurosciences Inc.",
       logo: coveLogo,
       date: "Sep 2024 - Apr 2025",
       title: "Software Developer",
       description: [
-        "Develop and implement algorithms for disease-specific biomarker identification pipeline from EEG and MRI data.",
-        "Explore the applications of Deep Learning to improve EEG data preprocessing accuracy."
+        "Explored the integration of ML-based denoising techniques into Cove’s end-to-end analytics pipeline to improve precision and signal quality in EEG data preprocessing, supporting platform’s differentiation in the market.",
+        "Implemented and benchmarked three advanced denoising algorithms in Python, demonstrating improved artifact attenuation for EEG data sourced from control participants.",
+        "Implemented and trained CNNs using TensorFlow on Amazon EC2 and Google Colab to support complex architectures and optimize DL model performance."
       ]
     },
     {
@@ -45,8 +57,9 @@ const Experience = () => {
       title: "Technology Analyst Intern",
       skills: "design thinking, facilitation, storytelling, Microsoft PowerPoint and Excel, MURAL",
       description: [
-        "Supported the Client Innovation Services team on various client accounts by applying cutting edge technologies and human-centred design principles to create innovative solutions and deliver 360◦ value.",
-        "Worked directly with Subject Matter Experts and Senior Leadership in fast-paced projects adopting agile principles."
+        "Supported the Client Innovation Services team on various client accounts by applying cutting edge technologies and human-centred design principles to create innovative solutions and deliver 360° value.",
+        "Worked directly with Subject Matter Experts and Senior Leadership in fast-paced projects, adopting agile principles.",
+        "Analyzed the current healthcare trends and emerging technologies to co-develop a futures thinking project on reimagining the Canadian healthcare system."
       ]
     },
     {
@@ -71,8 +84,8 @@ const Experience = () => {
           supervisor: "Dr. Shreejoy Tripathy",
           skills: "R, Specialized Computing Cluster (SCC), SSH, bash",
           description: [
-            "Worked on cross-modal data integration using scRNA-seq and patch-seq datasets with Seurat package in R to infer electrophysiology properties of neuronal cells based on gene expression.",
-            "Utilized de novo cell clustering, UMAP, differential expression analysis, and statistical modeling techniques on mice and human datasets."
+            "Integrated cross-modal scRNA-seq and patch-seq datasets using the Seurat package in R to infer electrophysiological properties of neuronal cells based on gene expression data.",
+            "Performed de novo cell clustering, UMAP, PCA, differential gene expression analysis, statistical modeling, and visualizations on large-scale mice and human datasets using the CAMH Specialized Computing Cluster."
           ]
         },
         {
